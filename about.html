@@ -11,12 +11,12 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header class="text-gray-400 bg-gray-900 body-font">
+   <header class="text-gray-600 body-font">
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
       >
         <a
-          class="flex title-font font-medium items-center text-white mb-4 md:mb-0"
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,28 +25,27 @@
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="2"
-            class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+            class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
             viewBox="0 0 24 24"
           >
             <path
               d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
             ></path>
           </svg>
-          <span class="ml-3 text-xl">FurniCo</span>
+          <span class="ml-3 text-xl">foodie</span>
         </a>
         <nav
-          class="md:ml-auto flex flex-wrap items-center text-base justify-center"
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
         >
-          <a class="mr-5 hover:text-white" href="index.html">Home</a>
-          <a class="mr-5 hover:text-white" href="menu.html">menu</a>
-          <a class="mr-5 hover:text-white" href="about.html">About Us</a>
-          <a class="mr-5 hover:text-white" href="contact.html">Contact</a>
+          <a class="mr-5 hover:text-gray-900" href="index.html">home</a>
+          <a class="mr-5 hover:text-gray-900" href="menu.html">menu</a>
+          <a class="mr-5 hover:text-gray-900" href="about.html">about us</a>
+          <a class="mr-5 hover:text-gray-900" href="contact.html">contact</a>
         </nav>
-        <button
-          class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0"
-          href="login.html"
-        >
-          Login<i class="fas fa-sign-in-alt"></i>
+        
+   <a href="login.html"><button
+          class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+        >login</a>
           <svg
             fill="none"
             stroke="currentColor"
@@ -55,7 +54,9 @@
             stroke-width="2"
             class="w-4 h-4 ml-1"
             viewBox="0 0 24 24"
-          ></svg>
+          >
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
         </button>
       </div>
     </header>
@@ -64,15 +65,17 @@
         <!-- ABOUT HEADING -->
         <div class="text-center mb-16">
           <h2 class="text-indigo-500 tracking-widest text-sm mb-2 uppercase">
-            About Us
+            About Foodie
           </h2>
+
           <h1 class="text-3xl font-medium text-gray-900 mb-4">
-            Crafting Comfort for Modern Living
+            Serving Happiness Through Delicious Food
           </h1>
+
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            At FurniCo, we design and create premium furniture that blends
-            timeless craftsmanship with modern comfort. Every piece is built to
-            elevate your space and last for years.
+            At Foodie, we believe great food brings people together. From
+            freshly baked pizzas to juicy burgers and flavorful combos, we serve
+            quality meals made with fresh ingredients and lots of love.
           </p>
         </div>
 
@@ -84,11 +87,11 @@
               class="h-full border-2 border-gray-200 rounded-lg p-8 text-center"
             >
               <h2 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Premium Quality
+                Fresh Ingredients
               </h2>
               <p class="leading-relaxed text-base">
-                We use high-grade materials and expert craftsmanship to ensure
-                durability, comfort, and long-lasting beauty.
+                We use handpicked, fresh ingredients to ensure every dish
+                delivers great taste, hygiene, and quality.
               </p>
             </div>
           </div>
@@ -99,11 +102,11 @@
               class="h-full border-2 border-gray-200 rounded-lg p-8 text-center"
             >
               <h2 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Modern Designs
+                Delicious Variety
               </h2>
               <p class="leading-relaxed text-base">
-                Our collections are inspired by contemporary lifestyles,
-                offering elegant designs that fit perfectly into modern homes.
+                From pizzas, burgers, momos, and sandwiches to family combos,
+                our menu is crafted to satisfy every craving.
               </p>
             </div>
           </div>
@@ -114,11 +117,11 @@
               class="h-full border-2 border-gray-200 rounded-lg p-8 text-center"
             >
               <h2 class="title-font text-lg font-medium text-gray-900 mb-3">
-                Customer Trust
+                Fast & Reliable Service
               </h2>
               <p class="leading-relaxed text-base">
-                With thousands of happy customers, we are committed to
-                delivering furniture that exceeds expectations.
+                Quick preparation, fast delivery, and customer satisfaction are
+                at the heart of everything we do.
               </p>
             </div>
           </div>
@@ -147,18 +150,18 @@
               d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
             ></path>
           </svg>
-          <span class="ml-3 text-xl">FurniCo</span>
+          <span class="ml-3 text-xl">Foodie</span>
         </a>
         <p
           class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4"
         >
-          © 2020 FurniCo —
+          © 2025 Foodie —
           <a
             href="https://twitter.com/"
             class="text-gray-600 ml-1"
             rel="noopener noreferrer"
             target="_blank"
-            >@knyttneve</a
+            >foodie@official</a
           >
         </p>
         <span
